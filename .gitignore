@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+.env*.local
+AGENTS.md
+
+# Só os sons usados pelo site entram no repositório
+public/sounds/*
+!public/sounds/Windows XP Startup.flac
+!public/sounds/Windows Navigation Start.flac
+!public/sounds/Windows XP Logoff Sound.flac
+!public/sounds/Windows XP Shutdown.flac
+!public/sounds/Windows XP Minimize.flac
+!public/sounds/Windows XP Restore.flac

@@ -1,0 +1,33 @@
+/** Chave semântica → arquivo em /public/icons (ícones estilo Windows XP) */
+export const ICONS = {
+  user: "WindowsXPUsers",
+  briefcase: "WindowsBriefcase",
+  controlPanel: "WindowsXPControlPanel",
+  wordpad: "WordpadXP",
+  outlook: "OutlookExpressXP",
+  documents: "WindowsXPMyDocuments",
+  web: "InternetExplorer6",
+  trash: "WindowsXPRecycleBin",
+  folder: "WindowsXPFolderOpen",
+  favorite: "WindowsXPFavorite",
+  mail: "WindowsXPMail",
+  phone: "WindowsXPPhone",
+  textFile: "WindowsXPTextFile",
+  network: "WindowsXPMyNetworkPlaces",
+  terminal: "WindowsXPCommandPrompt",
+  config: "WindowsXPConfiguration",
+  drive: "WindowsXPHardDrive",
+  tools: "AdministrativeToolsXP",
+  media: "WindowsXPMediaCenter",
+  support: "WindowsXPRemoteAssistance",
+  language: "RegionalAndLanguageOptions",
+  logoff: "WindowsXPLogOff",
+  shutdown: "WindowsXPShutDown",
+  sound: "WindowsXPSound",
+  mute: "WindowsXPMute",
+  security: "WindowsXPSecurityCenter",
+  explorer: "WindowsXPExplorer",
+  computer: "WindowsXPMyComputer",
+} as const;
+
+export type IconKey = keyof typeof ICONS;
