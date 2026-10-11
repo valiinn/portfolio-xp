@@ -21,6 +21,7 @@ export function Sobre() {
           </SidebarSection>
           <SidebarSection title="Links" icon="web">
             <SidebarLink icon="web" href={c.contact.githubHref}>GitHub</SidebarLink>
+            <SidebarLink icon="network" href={c.contact.linkedinHref}>LinkedIn</SidebarLink>
             <SidebarLink icon="mail" href={`mailto:${c.contact.email}`}>E-mail</SidebarLink>
             <SidebarLink icon="phone" href={c.contact.phoneHref}>Telefone</SidebarLink>
           </SidebarSection>
@@ -41,6 +42,7 @@ export function Sobre() {
           <a className="contact-item" href={c.contact.phoneHref}><XpIcon name="phone" />{c.contact.phone}</a>
           <a className="contact-item" href={`mailto:${c.contact.email}`}><XpIcon name="mail" />{c.contact.email}</a>
           <a className="contact-item" href={c.contact.githubHref} target="_blank" rel="noopener noreferrer"><XpIcon name="web" />{c.contact.github}</a>
+          <a className="contact-item" href={c.contact.linkedinHref} target="_blank" rel="noopener noreferrer"><XpIcon name="network" />{c.contact.linkedin}</a>
           <span className="contact-item"><XpIcon name="network" />{c.location}</span>
         </div>
       </XpBox>

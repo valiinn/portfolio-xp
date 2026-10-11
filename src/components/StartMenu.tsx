@@ -38,6 +38,9 @@ export function StartMenu({ onOpen, onLogoff, onShutdown }: Props) {
           <a className="sm-item sm-item--r" href={c.contact.githubHref} target="_blank" rel="noopener noreferrer">
             <XpIcon name="web" size={28} />GitHub
           </a>
+          <a className="sm-item sm-item--r" href={c.contact.linkedinHref} target="_blank" rel="noopener noreferrer">
+            <XpIcon name="network" size={28} />LinkedIn
+          </a>
           <a className="sm-item sm-item--r" href={`mailto:${c.contact.email}`}>
             <XpIcon name="mail" size={28} />E-mail
           </a>

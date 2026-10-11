@@ -8,7 +8,8 @@ export function Contato() {
     { icon: "mail", label: "E-mail", text: c.contact.email, href: `mailto:${c.contact.email}` },
     { icon: "phone", label: "Telefone", text: c.contact.phone, href: c.contact.phoneHref },
     { icon: "web", label: "GitHub", text: c.contact.github, href: c.contact.githubHref },
-    { icon: "textFile", label: "Currículo (PDF)", text: "Luiz_Vale_Resume_EN.pdf", href: c.contact.resumeHref },
+    { icon: "network", label: "LinkedIn", text: c.contact.linkedin, href: c.contact.linkedinHref },
+    { icon: "textFile", label: "Currículo (PDF)", text: "Curriculo_Luiz_Vale.pdf", href: c.contact.resumeHref },
   ];
   return (
     <Explorer path="C:\Usuários\LuizVale\Contatos" status={[`${rows.length} contatos`, c.location]}>

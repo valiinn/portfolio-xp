@@ -28,7 +28,9 @@ export const curriculo = {
     email: "luizeduardo3000@gmail.com",
     github: "github.com/valiinn",
     githubHref: "https://github.com/valiinn",
-    resumeHref: asset("/Luiz_Vale_Resume_EN.pdf"),
+    linkedin: "linkedin.com/in/luiz-eduardo-de-sousa-vale-8ba511269",
+    linkedinHref: "https://www.linkedin.com/in/luiz-eduardo-de-sousa-vale-8ba511269",
+    resumeHref: asset("/Curriculo_Luiz_Vale.pdf"),
   },
   experience: [
     {
